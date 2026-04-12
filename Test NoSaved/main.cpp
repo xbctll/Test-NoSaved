@@ -1,7 +1,27 @@
 #include<iostream>
 #include"link.h"
-#include<cstdlib>
-#include<ctime>
+#include"SeqStack.h"
+
+
+
+
+
+
+
+
+
+
+int main() {
+
+	return 0;
+
+}
+
+
+
+
+
+
 
 
 
@@ -94,11 +114,7 @@ void MergeLink(Link& link1, Link& link2) {
 
 
 
-int main(){
-	                    //hello Git
-	return 0;
 
-}
 
 
 

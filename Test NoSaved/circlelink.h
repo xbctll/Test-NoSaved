@@ -3,8 +3,8 @@
 struct node {
 	int data;
 	node* next;
-	node(int val = 0) :data(val), next(nullptr) {
-	}
+	node(int val = 0) :data(val), next(nullptr) {}
+	
 };
 
 

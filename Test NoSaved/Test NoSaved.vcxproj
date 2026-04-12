@@ -124,16 +124,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="circlelink.cpp" />
+    <ClCompile Include="doublelink.cpp" />
     <ClCompile Include="link.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="SeqStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circlelink.h" />
+    <ClInclude Include="doublelink.h" />
     <ClInclude Include="link.h" />
     <ClInclude Include="MyArray.hpp" />
     <ClInclude Include="myprint.hpp" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="SeqStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,9 +1,0 @@
-
-.vs/
-*.db
-*.db-shm
-*.db-wal
-*.opendb
-x64/
-Debug/
-Release/
