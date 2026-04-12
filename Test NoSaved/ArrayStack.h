@@ -1,14 +1,14 @@
 #pragma once
 #include<algorithm>
 
-class SeqStack {
+class ArrayStack {
 private:
 	int* m_p;
 	int m_top;
 	int m_capacity;
 public:
-	SeqStack(int capacity=10);
-	~SeqStack();
+	ArrayStack(int capacity=10);
+	~ArrayStack();
 	void push(int val);
 	void pop();
 	int top();
@@ -16,8 +16,8 @@ public:
 	int size();
 private:
 	void  expand(int newcapacity);
-	SeqStack(const SeqStack& s) = delete;
-	SeqStack& operator=(const SeqStack& s) = delete;
+	ArrayStack(const ArrayStack& s) = delete;
+	ArrayStack& operator=(const ArrayStack& s) = delete;
 
 
 

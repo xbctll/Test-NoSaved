@@ -1,6 +1,6 @@
 #include<iostream>
 #include"link.h"
-#include"SeqStack.h"
+#include"LinkedStack.h"
 
 
 
@@ -12,7 +12,16 @@
 
 
 int main() {
-
+	LinkedStack s;
+	int arr[] = { 1,3,5,7,9 };
+	for (const auto& e : arr) {
+		s.push(e);
+	}
+	while (!s.empty()) {
+		std::cout << s.top();
+		s.pop();
+	}
+	std::cout << s.size() << std::endl;
 	return 0;
 
 }

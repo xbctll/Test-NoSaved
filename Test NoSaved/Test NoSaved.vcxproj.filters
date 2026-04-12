@@ -30,7 +30,10 @@
     <ClCompile Include="doublelink.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SeqStack.cpp">
+    <ClCompile Include="ArrayStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,7 +56,10 @@
     <ClInclude Include="doublelink.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SeqStack.h">
+    <ClInclude Include="ArrayStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
