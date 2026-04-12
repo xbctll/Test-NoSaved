@@ -130,6 +130,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="ArrayStack.cpp" />
+    <ClCompile Include="RPNcalculator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circlelink.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="myprint.hpp" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="ArrayStack.h" />
+    <ClInclude Include="RPNcalculator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
