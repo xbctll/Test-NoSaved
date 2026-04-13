@@ -24,6 +24,7 @@
     <ProjectGuid>{5b426a1e-e6a2-4a9f-8820-993660960d19}</ProjectGuid>
     <RootNamespace>TestNoSaved</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>My Data Structure</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayQueue.cpp" />
     <ClCompile Include="circlelink.cpp" />
     <ClCompile Include="doublelink.cpp" />
     <ClCompile Include="link.cpp" />
@@ -133,6 +135,7 @@
     <ClCompile Include="RPNcalculator.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayQueue.h" />
     <ClInclude Include="circlelink.h" />
     <ClInclude Include="doublelink.h" />
     <ClInclude Include="link.h" />

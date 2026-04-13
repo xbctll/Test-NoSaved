@@ -1,7 +1,6 @@
 #include<iostream>
 #include"link.h"
-#include"LinkedStack.h"
-#include"RPNcalculator.h"
+#include"ArrayQueue.h"
 
 
 
@@ -12,6 +11,18 @@
 
 
 int main() {
+	ArrayQueue q;
+	int arr[] = { 1,3,5,6,8,10,99,44,333,456,778,999 };
+	for (const auto& v : arr) {
+		q.push(v);
+	}
+	std::cout << q.empty() << std::endl;
+	while (!q.empty()) {
+		std::cout << q.peek() << " ";
+		q.pop();
+	}
+	std::cout << q.empty() << std::endl;
+
 	return 0;
 
 }
