@@ -125,8 +125,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
+    <ClCompile Include="BubleSort.cpp" />
+    <ClCompile Include="ChhoiceSort.cpp" />
     <ClCompile Include="circlelink.cpp" />
     <ClCompile Include="doublelink.cpp" />
+    <ClCompile Include="InsertSort.cpp" />
+    <ClCompile Include="ShellSort.cpp" />
+    <ClCompile Include="ShellSort.h" />
     <ClCompile Include="link.cpp" />
     <ClCompile Include="LinkedStack.cpp" />
     <ClCompile Include="main.cpp" />
@@ -136,9 +141,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="BubleSort.h" />
+    <ClInclude Include="ChoiceSort.h" />
     <ClInclude Include="circlelink.h" />
     <ClInclude Include="doublelink.h" />
+    <ClInclude Include="FastSort.h" />
+    <ClInclude Include="InsertSort.h" />
     <ClInclude Include="link.h" />
+    <ClInclude Include="LinkedQueue.h" />
     <ClInclude Include="LinkedStack.h" />
     <ClInclude Include="MyArray.hpp" />
     <ClInclude Include="myprint.hpp" />

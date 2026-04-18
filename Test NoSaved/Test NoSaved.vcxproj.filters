@@ -42,6 +42,21 @@
     <ClCompile Include="ArrayQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ShellSort.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubleSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChhoiceSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyArray.hpp">
@@ -72,6 +87,21 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ArrayQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BubleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChoiceSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

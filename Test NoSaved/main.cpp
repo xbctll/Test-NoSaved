@@ -1,28 +1,16 @@
 #include<iostream>
 #include"link.h"
-#include"ArrayQueue.h"
-
-
-
-
-
-
+#include"FastSort.h"
 
 
 
 int main() {
-	ArrayQueue q;
-	int arr[] = { 1,3,5,6,8,10,99,44,333,456,778,999 };
+	int arr[] = { 1,3,88,6,81111,10,99,44,333,456,112,999 };
+	FastSort(arr,0,11);
 	for (const auto& v : arr) {
-		q.push(v);
+		std::cout << v << " ";
 	}
-	std::cout << q.empty() << std::endl;
-	while (!q.empty()) {
-		std::cout << q.peek() << " ";
-		q.pop();
-	}
-	std::cout << q.empty() << std::endl;
-
+	std::cout << std::endl;
 	return 0;
 
 }
@@ -53,25 +41,25 @@ void Reserve(Link& link) {
 	link.head->next = q;
 }
 
-void DeleteK(Link& link1, int k) {
-	if (link1.head->next == nullptr) {
-		throw"Link is empty";
-	}
-	node* p = link1.head;
-	node* q = link1.head;
-	for (int i = 0; i < k+1; i++) {
-		p = p->next;
-	}
-	while(p != nullptr){
-		p = p->next;
-		q = q->next;
-	}
-	node* temp = q->next;
-	if (temp != nullptr) {
-		q->next = temp->next;
-		delete temp;
-	}
-}
+//void DeleteK(Link& link1, int k) {
+//	if (link1.head->next == nullptr) {
+//		throw"Link is empty";
+//	}
+//	node* p = link1.head;
+//	node* q = link1.head;
+//	for (int i = 0; i < k+1; i++) {
+//		p = p->next;
+//	}
+//	while(p != nullptr){
+//		p = p->next;
+//		q = q->next;
+//	}
+//	node* temp = q->next;
+//	if (temp != nullptr) {
+//		q->next = temp->next;
+//		delete temp;
+//	}
+//}
 
 void isexsitcircle(Link& link1) {
 	node* fast = link1.head;
