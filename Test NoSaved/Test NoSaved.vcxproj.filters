@@ -51,10 +51,16 @@
     <ClCompile Include="BubleSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ChhoiceSort.cpp">
+    <ClCompile Include="ChoiceSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="InsertSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

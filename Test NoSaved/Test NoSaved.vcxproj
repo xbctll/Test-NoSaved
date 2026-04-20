@@ -126,9 +126,11 @@
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
     <ClCompile Include="BubleSort.cpp" />
-    <ClCompile Include="ChhoiceSort.cpp" />
+    <ClCompile Include="ChoiceSort.cpp" />
     <ClCompile Include="circlelink.cpp" />
     <ClCompile Include="doublelink.cpp" />
+    <ClCompile Include="FastSort.cpp" />
+    <ClCompile Include="LinkedQueue.cpp" />
     <ClCompile Include="InsertSort.cpp" />
     <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="ShellSort.h" />
