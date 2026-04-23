@@ -1,14 +1,19 @@
 #include<iostream>
 #include"link.h"
-#include"MergeSort.h"
+#include"MaxHeap.h"
 
 
 
 int main() {
+	MaxHeap h;
 	int arr[] = { 1,3,88,6,81111,10,99,44,333,456,112,999 };
-	MergeSort(arr, 0, 11);
 	for (const auto& v : arr) {
-		std::cout << v << " ";
+		h.push(v);
+
+	}
+	while (!h.empty()) {
+		std::cout << h.top() << " ";
+		h.pop();
 	}
 	std::cout << std::endl;
 	return 0;
