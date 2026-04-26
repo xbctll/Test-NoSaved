@@ -1,11 +1,16 @@
 #include<iostream>
 #include"link.h"
-#include"MaxHeap.h"
+#include"Heap.hpp"
 
-
+struct compare {
+	bool operator()(int a,int b) {
+		return a >b;
+	}
+};
 
 int main() {
-	MaxHeap h;
+	compare c;
+	Heap<int,compare> h(c);
 	int arr[] = { 1,3,88,6,81111,10,99,44,333,456,112,999 };
 	for (const auto& v : arr) {
 		h.push(v);

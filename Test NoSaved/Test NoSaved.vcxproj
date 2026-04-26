@@ -150,6 +150,7 @@
     <ClInclude Include="circlelink.h" />
     <ClInclude Include="doublelink.h" />
     <ClInclude Include="FastSort.h" />
+    <ClInclude Include="Heap.hpp" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="link.h" />
     <ClInclude Include="LinkedQueue.h" />

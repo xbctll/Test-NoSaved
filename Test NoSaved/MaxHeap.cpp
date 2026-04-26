@@ -48,11 +48,11 @@ void  MaxHeap::siftdown(int index) {
 		}
 		if (p[child] > val) {
 			p[index] = p[child];
+			index = child;
 		}
 		else {
 			break;
 		}
-		index = child;
 	}
 	p[index] = val;
 }
