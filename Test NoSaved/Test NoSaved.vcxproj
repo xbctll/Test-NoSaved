@@ -130,6 +130,7 @@
     <ClCompile Include="circlelink.cpp" />
     <ClCompile Include="doublelink.cpp" />
     <ClCompile Include="FastSort.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="MaxHeap.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="LinkedQueue.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="doublelink.h" />
     <ClInclude Include="FastSort.h" />
     <ClInclude Include="Heap.hpp" />
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="link.h" />
     <ClInclude Include="LinkedQueue.h" />
