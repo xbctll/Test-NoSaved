@@ -1,12 +1,12 @@
 #include<iostream>
 #include"link.h"
-#include"HeapSort.h"
+#include"RadixSort.h"
 
 
 int main() {
 	
 	int arr[] = { 1,3,88,6,81111,10,99,44,333,456,112,999 };
-	HeapSort(arr, 12);
+	RadixSort(arr, 12);
 	for (const auto& v : arr) {
 		std::cout << v << " ";
 	}
