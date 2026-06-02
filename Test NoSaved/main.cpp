@@ -1,16 +1,20 @@
 #include<iostream>
-#include"link.h"
-#include"RadixSort.h"
+
+#include"ArrayHashtable.h"
+
 
 
 int main() {
 	
-	int arr[] = { 1,3,88,6,81111,10,99,44,333,456,112,999 };
-	RadixSort(arr, 12);
+	int arr[10] = { 1,3,5,7,9,2,4,6,8,10 };
+	ArrayHashtable a(1);
 	for (const auto& v : arr) {
-		std::cout << v << " ";
+		a.push(v);
 	}
-	std::cout << std::endl;
+	std::cout << a.find(1) << " ";
+	std::cout << a.find(100) << " ";
+	a.erase(1);
+	std::cout << a.find(1) << " ";
 	return 0;
 
 }

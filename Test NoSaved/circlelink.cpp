@@ -44,3 +44,51 @@ circlelink::~circlelink() {
 	}
 	delete head;
 }
+void circlelink::erase(int val) {
+	if (head->next == head)return;
+	node* p = head->next;
+	node* q = head;
+	while (p != head) {
+		if (p->data == val) {
+			if (p == tail) {
+				tail = q;
+			}
+			q->next = p->next;
+			delete p;
+			return;
+		}else{
+			p = p->next;
+			q = q->next;
+		}
+		
+	}
+}
+void circlelink::Josephus(int n, int m) {
+	for (int i = 0; i < n; i++) {
+		InsertTail(i + 1);
+	}
+	node* p = head->next;
+	node* q = head;
+	while (head->next != head) {
+		for (int i = 0; i < m - 1; i++) {
+			q = p;
+			p = p->next;
+			if (p == head) {
+				q = p;
+				p = p->next;
+			}
+		}
+		std::cout << p->data << " ";
+		if (p == tail) {
+			tail = q;
+		}
+		q->next = p->next;
+		node* cur = p;
+		p = p->next;
+		delete cur;
+		if (p == head) {
+			q = p;
+			p = p->next;
+		}
+	}
+}

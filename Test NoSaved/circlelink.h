@@ -13,8 +13,10 @@ public:
 	circlelink();
 	void InsertTail(int val);
 	void show();
+	void erase(int val);
 	void InsertHead(int val);
 	~circlelink();
+	void Josephus(int m, int n);
 private:
 	node* head;
 	node* tail;

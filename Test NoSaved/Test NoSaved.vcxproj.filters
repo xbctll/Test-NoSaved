@@ -75,6 +75,9 @@
     <ClCompile Include="RadixSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayHashtable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyArray.hpp">
@@ -135,6 +138,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RadixSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayHashtable.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
