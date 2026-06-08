@@ -16,7 +16,7 @@ public:
 	void erase(int val);
 	void InsertHead(int val);
 	~circlelink();
-	void Josephus(int m, int n);
+	void Josephus(int n, int m);
 private:
 	node* head;
 	node* tail;

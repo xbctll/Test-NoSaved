@@ -1,20 +1,15 @@
 #include<iostream>
 
-#include"ArrayHashtable.h"
+#include"circlelink.h"
 
 
 
 int main() {
-	
-	int arr[10] = { 1,3,5,7,9,2,4,6,8,10 };
-	ArrayHashtable a(1);
-	for (const auto& v : arr) {
-		a.push(v);
-	}
-	std::cout << a.find(1) << " ";
-	std::cout << a.find(100) << " ";
-	a.erase(1);
-	std::cout << a.find(1) << " ";
+	int m, n;
+	circlelink link;
+	std::cout << "请输入人数和数到几出局（用空格分开）" << std::endl;
+	std::cin >> n >> m;
+	link.Josephus(n, m);
 	return 0;
 
 }
